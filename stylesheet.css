@@ -159,13 +159,13 @@
 /*}*/
 
 a {
-  color: #1772d0;
+  color: #0a3cff;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #ff2d55;
   text-decoration: none;
 }
 
@@ -190,7 +190,24 @@ strong {
 
 heading {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 1.55rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  color: #0b1220;
+}
+heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #0a3cff, #ff2d55);
+  box-shadow: 0 10px 20px -14px rgba(10, 60, 255, 0.5);
 }
 
 papertitle {
@@ -202,23 +219,27 @@ papertitle {
 authorname {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
-  color: #00418A;
+  color: #061b7a;
 }
 authorname:focus,
 authorname:hover {
-  color: #f09228;
+  color: #ff2d55;
   text-decoration: none;
 }
 authorname-nolink {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
-  color: #00418A;
+  color: #061b7a;
 }
 
 
 name {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 2.85rem;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+  color: #0b1220;
 }
 
 pre {
@@ -240,13 +261,13 @@ button {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
   /*input has OS specific font-family*/
-  color:#1772d0;
+  color: #0a3cff;
   text-decoration: none;
   cursor: pointer;
 }
 
 button:hover{
-  color: #f09228;
+  color: #ff2d55;
   text-decoration: none;
 }
 

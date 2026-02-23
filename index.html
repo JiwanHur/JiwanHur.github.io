@@ -82,9 +82,17 @@
           
         </div>
 
+   <!-- Nav: jump to sections (pre6ent style) -->
+   <nav class="nav-bar">
+     <a href="#awards" class="nav-item">Awards</a>
+     <a href="#news" class="nav-item">News</a>
+     <a href="#publications" class="nav-item">Publications</a>
+   </nav>
 
+   <!-- Main content: Awards, News, Publications (outside profile grid) -->
+   <div class="content_section">
    <!-- adapt -->
-   <div class="item text2">
+   <div class="item text2 section_card" id="awards">
     <p>
       <heading>Awards</heading>
     </p>
@@ -95,13 +103,216 @@
     </ul>
     </p>
   </div>
+
+  <div class="item text2 section_card" id="news">
+    <p>
+      <heading>News</heading>
+    </p>
+    <p>
+    <ul style="list-style: none; padding-left: 0;">
+        <li> 2026-02 🎉🎉 One paper has been accepted to <strong>CVPR</strong> 2026. </li>
+        <li> 2026-02 🎉🎉 Two papers have been accepted to <strong>ICLR</strong> 2026. </li>
+        <li> 2025-09 🎉🎉 One paper has been accepted to <strong>NeurIPS</strong> 2025. </li>
+        <li> 2025-07 🎉🎉 One paper has been accepted to <strong>ICCV</strong> 2025. </li>
+        <li> 2024-09 🎉🎉 One paper has been accepted to <strong>NeurIPS</strong> 2024. </li>
+        <li> 2024-07 🎉🎉 One paper has been accepted to <strong>ECCV</strong> 2024. </li>
+    </ul>
+    </p>
+  </div>
   
 
-    <div class="item text2">
+    <div class="item text2 section_card section_card--heading" id="publications">
       <p>
           <heading>Publications</heading>
       </p>
     </div>
+
+    <div class="item text2 section_card" id="underreview">
+      <ul class="underreview-list">
+        <li>
+          <span class="underreview-title">Efficient Multi-View 3D Representation via View-Agnostic Single-View Transformations</span><br>
+          <span class="pub-authors"><a><authorname>Jaemyung Yu</authorname></a>, <strong>Jiwan Hur</strong>, <a><authorname>Dong-Jae Lee</authorname></a>, <a><authorname>Jaehoon Cho</authorname></a>, <a><authorname>Junmo Kim</authorname></a></span><br>
+          <em class="underreview-badge">Under Review</em>
+        </li>
+        <li>
+          <span class="underreview-title">Maximum Likelihood Training with Implicit Discriminator Enhances Guidance-Free Visual Generation</span><br>
+          <span class="pub-authors"><strong>Jiwan Hur</strong>, <a><authorname>Dong-Jae Lee</authorname></a>, <a><authorname>Dongyeun Lee</authorname></a>, <a><authorname>Gyojin Han</authorname></a>, <a><authorname>Junmo Kim</authorname></a></span><br>
+          <em class="underreview-badge">Under Review</em>
+        </li>
+        <li>
+          <span class="underreview-title">Progressive Latent Calibration for Stable Score Distillation</span><br>
+          <span class="pub-authors"><a><authorname>Gyojin Han*</authorname></a>, <strong>Jiwan Hur*</strong>, <a><authorname>Junmo Kim</authorname></a></span><br>
+          <em class="underreview-badge">Under Review</em>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="container2">
+      <div class="item image2">
+        <img src='imgs_main/PRISM.png' width=180; height="auto" alt="PRISM">
+      </div>
+      <div class="item text2">
+        <a href="https://arxiv.org/abs/2505.22564" target="_blank" rel="noopener">
+          <papertitle>PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion</papertitle>
+        </a>
+        <br>
+        <span class="pub-authors"><a><authorname>Jaehyun Choi</authorname></a>,
+        <strong>Jiwan Hur</strong>,
+        <a><authorname>Gyojin Han</authorname></a>,
+        <a><authorname>Jaemyung Yu</authorname></a>,
+        <a><authorname>Junmo Kim</authorname></a></span>
+        <br>
+        <em>CVPR</em>, 2026
+        <br>
+
+        <div class="box">
+            <a href="https://arxiv.org/abs/2505.22564" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+        </div>
+
+        <button id="bib_button" class="box" onclick="showBib('PRISM_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+        <div id='PRISM_bib' hidden>
+  <pre><code>@inproceedings{choi2026prism,
+    title={PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion},
+    author={Choi, Jaehyun and Hur, Jiwan and Han, Gyojin and Yu, Jaemyung and Kim, Junmo},
+    booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2026}
+  }
+  </code></pre>
+        </div>
+    <p></p>
+    </div>
+    </div>
+
+    <!-- ------------------------------------------------------------ -->
+
+    <div class="container2">
+      <div class="item image2">
+        <img src='imgs_main/SSG.png' width=180; height="auto" alt="SSG">
+      </div>
+      <div class="item text2">
+        <a href="https://github.com/Youngwoo-git/SSG" target="_blank" rel="noopener">
+          <papertitle>SSG: Scaled Spatial Guidance for Multi-Scale Visual Autoregressive Generation</papertitle>
+        </a>
+        <br>
+        <span class="pub-authors"><a><authorname>Youngwoo Shin*</authorname></a>,
+        <strong>Jiwan Hur*</strong>,
+        <a><authorname>Junmo Kim</authorname></a></span>
+        <br>
+        <em>ICLR</em>, 2026 
+        <br>
+
+        <div class="box">
+            <a href="https://github.com/Youngwoo-git/SSG" target="_blank" rel="noopener"> <i class="fa fa-github"></i> Code</a>
+        </div>
+        <div class="box">
+            <a href="https://arxiv.org/abs/2602.05534" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+        </div>
+        <div class="box">
+            <a href="https://openreview.net/forum?id=S6oLw7VixT" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> OpenReview</a>
+        </div>
+
+        <button id="bib_button" class="box" onclick="showBib('SSG_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+        <div id='SSG_bib' hidden>
+  <pre><code>@inproceedings{shin2026ssg,
+    title={SSG: Scaled Spatial Guidance for Multi-Scale Visual Autoregressive Generation},
+    author={Shin, Youngwoo and Hur, Jiwan and Kim, Junmo},
+    booktitle={International Conference on Learning Representations (ICLR)},
+    year={2026}
+  }
+  </code></pre>
+        </div>
+    <p></p>
+    </div>
+    </div>
+
+    <!-- ------------------------------------------------------------ -->
+
+    <div class="container2">
+      <div class="item image2">
+        <img src='imgs_main/InlierQ.png' width=180; height="auto" alt="InlierQ">
+      </div>
+      <div class="item text2">
+        <a href="https://arxiv.org/abs/2602.03472" target="_blank" rel="noopener">
+          <papertitle>Inlier-Centric Post-Training Quantization for Object Detection Models</papertitle>
+        </a>
+        <br>
+        <span class="pub-authors"><a><authorname>Minsu Kim</authorname></a>,
+        <a><authorname>Dongyeun Lee</authorname></a>,
+        <a><authorname>Jaemyung Yu</authorname></a>,
+        <strong>Jiwan Hur</strong>,
+        <a><authorname>Giseop Kim</authorname></a>,
+        <a><authorname>Junmo Kim</authorname></a></span>
+        <br>
+        <em>ICLR</em>, 2026 
+        <br>
+
+        <div class="box">
+            <a href="https://arxiv.org/abs/2602.03472" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+        </div>
+        <div class="box">
+            <a href="https://openreview.net/forum?id=GN9otzf5o6" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> OpenReview</a>
+        </div>
+
+        <button id="bib_button" class="box" onclick="showBib('InlierQ_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+        <div id='InlierQ_bib' hidden>
+  <pre><code>@inproceedings{kim2026inlier,
+    title={Inlier-Centric Post-Training Quantization for Object Detection Models},
+    author={Kim, Minsu and Lee, Dongyeun and Yu, Jaemyung and Hur, Jiwan and Kim, Giseop and Kim, Junmo},
+    booktitle={International Conference on Learning Representations (ICLR)},
+    year={2026}
+  }
+  </code></pre>
+        </div>
+    <p></p>
+    </div>
+    </div>
+
+    <!-- ------------------------------------------------------------ -->
+
+    <div class="container2">
+      <div class="item image2">
+        <img src='imgs_main/FreqTokenReduction.png' width=180; height="auto" alt="Frequency-Aware Token Reduction">
+      </div>
+      <div class="item text2">
+        <a href="https://arxiv.org/abs/2511.21477" target="_blank" rel="noopener">
+          <papertitle>Frequency-Aware Token Reduction for Efficient Vision Transformer</papertitle>
+        </a>
+        <br>
+        <span class="pub-authors"><a><authorname>Dong-Jae Lee</authorname></a>,
+        <strong>Jiwan Hur</strong>,
+        <a><authorname>Jaehyun Choi</authorname></a>,
+        <a><authorname>Jaemyung Yu</authorname></a>,
+        <a><authorname>Junmo Kim</authorname></a></span>
+        <br>
+        <em>NeurIPS</em>, 2025
+        <br>
+
+        <div class="box">
+            <a href="https://github.com/jhtwosun/frequency-aware-token-pruning" target="_blank" rel="noopener"> <i class="fa fa-github"></i> Code</a>
+        </div>
+        <div class="box">
+            <a href="https://arxiv.org/abs/2511.21477" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o"></i> arXiv</a>
+        </div>
+        <div class="box">
+            <a href="https://openreview.net/forum?id=Dr06Wjh45k" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> OpenReview</a>
+        </div>
+
+        <button id="bib_button" class="box" onclick="showBib('FreqTokenReduction_bib')"> <i class="fa fa-quote-left"></i> BibTex</button>
+        <div id='FreqTokenReduction_bib' hidden>
+  <pre><code>@inproceedings{lee2025frequency,
+    title={Frequency-Aware Token Reduction for Efficient Vision Transformer},
+    author={Lee, Dong-Jae and Hur, Jiwan and Choi, Jaehyun and Yu, Jaemyung and Kim, Junmo},
+    booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+    year={2025}
+  }
+  </code></pre>
+        </div>
+    <p></p>
+    </div>
+    </div>
+
+    <!-- ------------------------------------------------------------ -->
 
     <div class="container2">
       <div class="item image2">
@@ -112,11 +323,11 @@
           <papertitle>DMQ: Dissecting Outliers of Diffusion Models for Post-Training Quantization</papertitle>
           </a>
           <br>
-          <a><authorname>Dongyeun Lee</authorname></a>,
+          <span class="pub-authors"><a><authorname>Dongyeun Lee</authorname></a>,
           <strong>Jiwan Hur</strong>,
           <a><authorname>Hyounguk Shon</authorname></a>,
-          <a><authorname>Jae Young Lee,</authorname></a>,
-          <a><authorname>Junmo Kim</authorname></a>,
+          <a><authorname>Jae Young Lee</authorname></a>,
+          <a><authorname>Junmo Kim</authorname></a></span>
           <br>
           <em>ICCV</em>, 2025
           <br>
@@ -157,14 +368,14 @@
           <papertitle>Unlocking the Capabilities of Masked Generative Models for Image Synthesis via Self-Guidance</papertitle>
           </a>
           <br>
-          <strong>Jiwan Hur</strong>,
+          <span class="pub-authors"><strong>Jiwan Hur</strong>,
           <a><authorname>Dong-Jae Lee</authorname></a>,
           <a><authorname>Gyojin Han</authorname></a>,
           <a><authorname>Jaehyun Choi</authorname></a>,
           <a><authorname>Yunho Jeon†</authorname></a>,
-          <a><authorname>Junmo Kim†</authorname></a>,
-          <br>
-          <em>NeurIPS</em>, 2024
+          <a><authorname>Junmo Kim†</authorname></a></span>
+        <br>
+        <em>NeurIPS</em>, 2024
           <br>
     
           <div class="box">
@@ -204,10 +415,10 @@
       <papertitle>Learning Neural Deformation Representation for 4D Dynamic Shape Generation</papertitle>
       </a>
       <br>
-      <a><authorname>Gyojin Han</authorname></a>,
+      <span class="pub-authors"><a><authorname>Gyojin Han</authorname></a>,
       <strong>Jiwan Hur</strong>,
       <a><authorname>Jaehyun Choi</authorname></a>,
-      <a><authorname>Junmo Kim</authorname></a>,
+      <a><authorname>Junmo Kim</authorname></a></span>
       <br>
       <em>ECCV</em>, 2024
       <br>
@@ -243,11 +454,11 @@
       <papertitle>Expanding Expressiveness of Diffusion Models with Limited Data via Self-Distillation Based Fine-Tuning</papertitle>
       </a>
       <br>
-      <strong>Jiwan Hur</strong>,
+      <span class="pub-authors"><strong>Jiwan Hur</strong>,
       <a><authorname>Jaehyun Choi</authorname></a>,
       <a><authorname>Gyojin Han</authorname></a>,
       <a><authorname>Dong-Jae Lee</authorname></a>,
-      <a><authorname>Junmo Kim</authorname></a>,
+      <a><authorname>Junmo Kim</authorname></a></span>
       <br>
       <em>WACV</em>, 2024
       <br>
@@ -289,11 +500,11 @@
       <papertitle>Deep Cross-Modal Steganography Using Neural Representations</papertitle>
       </a>
       <br>
-      <a><authorname>Gyojin Han</authorname></a>,
+      <span class="pub-authors"><a><authorname>Gyojin Han</authorname></a>,
       <a><authorname>Dong-Jae Lee</authorname></a>,
       <strong>Jiwan Hur</strong>,
       <a><authorname>Jaehyun Choi</authorname></a>,
-      <a><authorname>Junmo Kim</authorname></a>,
+      <a><authorname>Junmo Kim</authorname></a></span>
       <br>
       <em>ICIP</em>, 2023
       <br>
@@ -330,11 +541,11 @@
       <papertitle>Multi-Scale Foreground-Background Separation for Light Field Depth Estimation with Deep Convolutional Networks</papertitle>
       </a>
       <br>
-      <a><authorname>Jae Young Lee</authorname></a>,
+      <span class="pub-authors"><a><authorname>Jae Young Lee</authorname></a>,
       <strong>Jiwan Hur</strong>,
       <a><authorname>Jaehyun Choi</authorname></a>,
       <a><authorname>Rae-Hong Park</authorname></a>,
-      <a><authorname>Junmo Kim</authorname></a>,
+      <a><authorname>Junmo Kim</authorname></a></span>
       <br>
       <em>Pattern Recognition Letters</em>, 2023
       <br>
@@ -371,10 +582,10 @@
       <papertitle>A Framework for Removing Foreground Occlusion in Both Dense and Sparse Light Field Images</papertitle>
       </a>
       <br>
-      <strong>Jiwan Hur*</strong>,
+      <span class="pub-authors"><strong>Jiwan Hur*</strong>,
       <a><authorname>Jae Young Lee*</authorname></a>,
       <a><authorname>Jaehyun Choi</authorname></a>,
-      <a><authorname>Junmo Kim</authorname></a>,
+      <a><authorname>Junmo Kim</authorname></a></span>
       <br>
       <em>WACV</em>, 2023
       <br>
@@ -417,19 +628,21 @@
   </p>
 </div> -->
 
+   </div>
+   <!-- end content_section -->
 
-</tbody></table>
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
       <td style="padding:0px">
         <br>
         <p style="text-align:right;">
-          Template adapted from <a href="https://sanweiliti.github.io/">Siwei Zhang</a>'s, <a href="https://jonbarron.info/">Jon Barron</a>'s and <a href="https://qianlim.github.io/">Qianli Ma</a>'s websites.
+          Template adapted from <a href="https://pre6ent.github.io/" target="_blank" rel="noopener">Jaehyun Choi</a>, <a href="https://sanweiliti.github.io/">Siwei Zhang</a>, <a href="https://qianlim.github.io/">Qianli Ma</a>, and <a href="https://jonbarron.info/">Jon Barron</a>.
         </p>
       </td>
     </tr>
   </tbody></table>
 <script type="text/javascript" src="show_bib.js"></script>
+<script type="text/javascript" src="author_links.js"></script>
 </div>
 
         </div>
