@@ -42,6 +42,8 @@
       ".pub-authors strong {",
       "  color: #0b1220;",
       "  font-weight: 950;",
+      "  font-size: 1.08em;",
+      "  letter-spacing: 0.02em;",
       "}",
       ".pub-authors .author-no-link {",
       "  color: inherit;",
