@@ -104,7 +104,7 @@
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.className = "author-link";
-      a.title = displayName + " – 개인 페이지";
+      a.title = displayName;
       wrapper.parentNode.replaceChild(a, wrapper);
       return;
     }

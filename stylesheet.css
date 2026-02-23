@@ -170,7 +170,7 @@ a:hover {
 }
 
 body{
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 td,
 th,
@@ -179,18 +179,18 @@ em,
 p,
 a {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px
+  font-size: 18px;
 }
 
 strong {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   /*text-decoration: underline;*/
 }
 
 heading {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 1.55rem;
+  font-size: 1.8rem;
   font-weight: 900;
   letter-spacing: -0.02em;
   position: relative;
@@ -212,13 +212,13 @@ heading::after {
 
 papertitle {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 700
+  font-size: 20px;
+  font-weight: 700;
 }
 
 authorname {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #061b7a;
 }
 authorname:focus,
@@ -228,14 +228,14 @@ authorname:hover {
 }
 authorname-nolink {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #061b7a;
 }
 
 
 name {
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 2.85rem;
+  font-size: 3rem;
   font-weight: 900;
   letter-spacing: -0.035em;
   line-height: 1.1;
@@ -248,8 +248,9 @@ pre {
   border: 0.5px solid rgb(215, 215, 215);
   border-radius: 6px;
   background: rgba(239,239,239,0.6);
-  padding: 5px 5px 5px 10px;
-  line-height: 1.2;
+  padding: 8px 10px 8px 14px;
+  line-height: 1.4;
+  font-size: 15px;
   white-space: pre-wrap;
 }
 
@@ -259,7 +260,7 @@ button {
   padding: 0;
   /*optional*/
   font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   /*input has OS specific font-family*/
   color: #0a3cff;
   text-decoration: none;
