@@ -43,6 +43,22 @@
     margin-bottom: 0.5rem;
   }
 
+  /* News list: same font and color as other sections (Awards, etc.) */
+  .news-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #0b1220;
+    line-height: 1.6em;
+  }
+  .news-list li {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+  }
+
   .underreview-desc {
     color: #64748b;
     font-size: 0.95rem;
